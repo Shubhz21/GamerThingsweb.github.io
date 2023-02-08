@@ -21,6 +21,22 @@
 
         }
     </style>
+    
+    blink {
+    animation: blink 2s linear infinite;
+  }
+    @keyframes blink {
+    0% {
+      color: white;
+    }
+    50% {
+      color: green;
+    }
+    100% {
+      color: white;
+    }
+  }
+    
     <title>Mad.Gamer</title>
 </head>
 
@@ -66,14 +82,14 @@
         </div>
     </nav>
 
-
+<blink>
     <div class="alert alert-success alert-dismissible fade show" role="alert">
         <strong>Sale!!!</strong> Now You Can Buy Any Product Using Promocode 'WNTANY' with 47% Off !!
         <button type="button" class="close" data-dismiss="alert" aria-label="Close">
             <span aria-hidden="true">&times;</span>
         </button>
     </div>
-
+    </blink>
 
 
 
